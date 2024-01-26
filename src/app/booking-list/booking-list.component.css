@@ -1,0 +1,36 @@
+/* Button styles */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+/* Primary button style */
+.button-primary {
+    color: #fff;
+    background-color:brown; /* Material blue color */
+    border: 2px solid #2196F3;
+}
+
+/* Secondary button style */
+.button-secondary {
+    color: #2196F3; /* Material blue color */
+    background-color: #fff;
+    border: 2px solid #2196F3;
+}
+
+/* Hover effect */
+.button:hover {
+    background-color: #1976D2; /* Darker shade of Material blue */
+    color: #fff;
+}
+
+/* Active button style */
+.button:active {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}

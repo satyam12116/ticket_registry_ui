@@ -1,0 +1,35 @@
+/* Navbar styling */
+.navbar {
+  background-color: #3495eb; /* Material blue color */
+  padding: 15px;
+}
+
+/* Navbar links styling */
+.nav-item a {
+  padding: 15px 15px;
+  text-decoration: none;
+  margin: 0 10px;
+  color: #fff;
+  background-color: #607D8B; /* Material grey color */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Visited and link styles */
+.nav-item a:visited,
+.nav-item a:link {
+  color: #fff;
+}
+
+/* Hover effect */
+.nav-item a:hover {
+  color: #2196F3; /* Material blue color */
+  background-color: #CFD8DC; /* Light grey color */
+}
+
+/* Active link style */
+.nav-item a.active {
+  color: #2196F3; /* Material blue color */
+  background-color: #CFD8DC; /* Light grey color */
+}
+
+  
